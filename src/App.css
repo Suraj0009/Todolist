@@ -1,0 +1,22 @@
+.hey{
+
+    background-color: rgb(45, 194, 144);
+}
+
+button{
+
+    height:45px;
+    width: 100px;
+}
+input{
+
+     margin: 10px;
+     padding: 5px;
+     width: 300px;
+     height: 40px;
+    
+}
+
+.App{
+    text-align: center;
+}
