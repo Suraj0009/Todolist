@@ -15,7 +15,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1> Todo-List</h1>
+      <h1 id="hello"> Todo-List</h1>
       <div>
           
            <input type="text" placeholder="task..." onChange={(event)=>{
@@ -26,6 +26,15 @@ function App() {
 
           </div>
           <hr />
+              
+              <ul>
+                {todoList.map((val,key)=> {
+                       return <li key={key}>{val} </li>;
+
+                      
+
+                })}
+              </ul>
     </div>
   )
 }

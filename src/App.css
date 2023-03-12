@@ -2,7 +2,9 @@
 
     background-color: rgb(45, 194, 144);
 }
-
+ul{
+    list-style: none;
+}
 button{
 
     height:45px;
@@ -19,4 +21,16 @@ input{
 
 .App{
     text-align: center;
+    background-position: center;
+        background-color: black;
+    border: 20px;
+    background-size: auto;
+    background-image: url('https://media.istockphoto.com/id/1326663010/photo/2022-goals.jpg?b=1&s=170667a&w=0&k=20&c=GdTr5lIdsiXTssoSJ0hx1y0HUgPsaMvTqAFlwn_U06A=');
+}
+
+#hello{
+
+    border: 1px solid rgb(202, 23, 23);
+    color: rgba(1, 20, 7, 0.781);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
